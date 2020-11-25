@@ -1,0 +1,2649 @@
+{
+  "count" : 6148,
+  "metrics" : {
+    "COUNT" : 6148,
+    "NET" : 23729.279999999977,
+    "SUM" : 3534520.66,
+    "AVG" : 574.9057677293429,
+    "CATEGORIES" : {
+      "e6ada2dc635c48e586a3de69591995d7" : 0.2824638999280881,
+      "adb78e1f35b44f88b5da5ebbefafe25b" : 0.12087447241007213,
+      "b3963cfe6bf54c06b22eaa44e0a6cf3f" : 0.12087248911426651,
+      "c59a38ff206c4fe29a9e7b2bb1fcb3de" : 0.09126522689500985,
+      "1f9ae907ecaf49939cb8e960c74710ea" : 0.08720334654940169,
+      "83f5dccf39ca43a8a0d4413be23464c6" : 0.07609037430269257,
+      "0786f8cb5d2a4230827bc0e2ac1fd263" : 0.0436153766887304,
+      "3574aa8a22d4480983b9d4c0451c2776" : 0.03324725791813587,
+      "f97ed636f1c54f1f91b5c648f9329155" : 0.01579393795366866,
+      "c839cf1715ae459384aaae62353ff463" : 0.014021590129848036,
+      "ef71e9559def493987dbf496877bc343" : 0.013983791510784379,
+      "ed909bd383f245aabab53d3e3ee8e4bf" : 0.012048284363402193,
+      "9faddd4c806b48a29301891f6a310c78" : 0.009052226052061045,
+      "07da44eeae8d448b8b67bdf5e0488832" : 0.007325171498643892,
+      "e572c2027faa4672b259e4adadf9d249" : 0.006703610554082883,
+      "bde2284069594e3380941026474cbda2" : 0.00653827837577274,
+      "8f30832aaa35480bbd88d683be480769" : 0.005701197400837941,
+      "3aa36e08db054422941fec97d2ab33f6" : 0.0045245993837252025,
+      "f418a581e9a54c4a8a459030fc3f5697" : 0.0041665083943801294,
+      "9bde7aead97448a6954fa87803b83c67" : 0.0039001299825476192,
+      "63a7e66150d44c67a3380265c86e1c26" : 0.0037942485813620905,
+      "90c82b2781704763a1c49e236ea20142" : 0.0037213702409084233,
+      "a06a29ba01ad4903a0505fb1ba54d2ae" : 0.003038007422483138,
+      "25a34f372da14b9a8bf230f15de1a928" : 0.002487183085244719,
+      "c22e51b7abfa48088fb500005e21df76" : 0.002399471050198926,
+      "049ff3909f4d46fc9cb63a4f9b048ece" : 0.002196252546448547,
+      "6ddd66c5b7c84bd09c6c68d8b75a4314" : 0.002175270917782667,
+      "f95f30da395348c488261e990e8c0e54" : 0.0020695875632539096,
+      "5f23014f62cf4cf19ad58f9ac84bbe34" : 0.0019804665677070903,
+      "b64f0e4f328a4d00b623b7ca3f588879" : 0.0019592784046705784,
+      "e1aa3343b3d64bd88d17137d9696bcdb" : 0.0016824968848816971,
+      "167a4ebe333245faa00f10b62493cdbc" : 0.0014411883505584036,
+      "075fab3ec31f43aa9d39675475c1fb1a" : 0.0014393917844576977,
+      "3b52969658164d30930f51a2965ecc65" : 0.0014345368121288617,
+      "ade3d44c4fa64345a75ddaaa73abd9d6" : 0.0013542600144258315,
+      "c548dd5a583d4cba8372d0782e037172" : 0.001351244046767009,
+      "0217989903af43c5b7b4e66c0515d0d5" : 9.22303280581192E-4,
+      "2f8c67f8ac90485186b9acf7b1afe6a3" : 8.758471933786913E-4,
+      "6dc2aec9874047ed860f02135db06680" : 8.346251963908452E-4,
+      "ea8bc346e5874b1eaceafa6481e5f901" : 8.325032679254448E-4,
+      "3810f797bc394a93ade86232b5d6de9f" : 7.070265646714313E-4,
+      "2a399e962e3b4ac49b61ade0f8380840" : 6.648567729690395E-4,
+      "0cbe3c0155764a8faba86196dacce1c2" : 4.7163113767172035E-4,
+      "4cc474aee3c74473a7ddced5c8703b77" : 3.3894270687329916E-4,
+      "aa868f6851224c44901ad302f0a1527c" : 2.161254872959209E-4,
+      "d7289138301642b1b927a506292fe610" : 1.4683744980571143E-4,
+      "fb7618bd315248eeaac217fec003f89c" : 7.327726300516235E-5
+    }
+  },
+  "periodAmounts" : [ {
+    "key" : "2016-01",
+    "value" : 346.8900000000009
+  }, {
+    "key" : "2016-02",
+    "value" : -9906.989999999998
+  }, {
+    "key" : "2016-03",
+    "value" : 14671.180000000002
+  }, {
+    "key" : "2016-04",
+    "value" : -20428.39
+  }, {
+    "key" : "2016-05",
+    "value" : -7723.099999999999
+  }, {
+    "key" : "2016-06",
+    "value" : 8577.109999999999
+  }, {
+    "key" : "2016-07",
+    "value" : -1419.360000000001
+  }, {
+    "key" : "2016-08",
+    "value" : -4398.630000000001
+  }, {
+    "key" : "2016-09",
+    "value" : 6622.6
+  }, {
+    "key" : "2016-10",
+    "value" : 18259.120000000003
+  }, {
+    "key" : "2016-11",
+    "value" : -38636.22
+  }, {
+    "key" : "2016-12",
+    "value" : -150.6500000000019
+  }, {
+    "key" : "2017-01",
+    "value" : 616.0600000000006
+  }, {
+    "key" : "2017-02",
+    "value" : 24652.6
+  }, {
+    "key" : "2017-03",
+    "value" : -11354.41
+  }, {
+    "key" : "2017-04",
+    "value" : -10812.679999999998
+  }, {
+    "key" : "2017-05",
+    "value" : -1992.3600000000006
+  }, {
+    "key" : "2017-06",
+    "value" : -944.9100000000062
+  }, {
+    "key" : "2017-07",
+    "value" : -324.18999999999954
+  }, {
+    "key" : "2017-08",
+    "value" : 572.2099999999965
+  }, {
+    "key" : "2017-09",
+    "value" : -382.8100000000013
+  }, {
+    "key" : "2017-10",
+    "value" : 23670.48
+  }, {
+    "key" : "2017-11",
+    "value" : -8788.66
+  }, {
+    "key" : "2017-12",
+    "value" : -10763.279999999993
+  }, {
+    "key" : "2018-01",
+    "value" : -2963.229999999999
+  }, {
+    "key" : "2018-02",
+    "value" : 946.6099999999992
+  }, {
+    "key" : "2018-03",
+    "value" : 12193.220000000001
+  }, {
+    "key" : "2018-04",
+    "value" : -11532.370000000003
+  }, {
+    "key" : "2018-05",
+    "value" : -2083.8800000000015
+  }, {
+    "key" : "2018-06",
+    "value" : 9756.210000000003
+  }, {
+    "key" : "2018-07",
+    "value" : -1784.9700000000003
+  }, {
+    "key" : "2018-08",
+    "value" : -5084.319999999998
+  }, {
+    "key" : "2018-09",
+    "value" : 7995.580000000002
+  }, {
+    "key" : "2018-10",
+    "value" : 10209.529999999968
+  }, {
+    "key" : "2018-11",
+    "value" : 32903.28
+  }, {
+    "key" : "2018-12",
+    "value" : -25999.11
+  }, {
+    "key" : "2019-01",
+    "value" : -9035.31
+  }, {
+    "key" : "2019-02",
+    "value" : 37437.16000000002
+  }, {
+    "key" : "2019-03",
+    "value" : -38154.45999999999
+  }, {
+    "key" : "2019-04",
+    "value" : -18811.540000000005
+  }, {
+    "key" : "2019-05",
+    "value" : -254.94999999999982
+  }, {
+    "key" : "2019-06",
+    "value" : 6949.28
+  }, {
+    "key" : "2019-07",
+    "value" : -5515.710000000002
+  }, {
+    "key" : "2019-08",
+    "value" : -53.30999999999938
+  }, {
+    "key" : "2019-09",
+    "value" : -456.6200000000008
+  }, {
+    "key" : "2019-10",
+    "value" : 34790.659999999996
+  }, {
+    "key" : "2019-11",
+    "value" : -10024.210000000006
+  }, {
+    "key" : "2019-12",
+    "value" : -19266.24
+  }, {
+    "key" : "2020-01",
+    "value" : -6194.7
+  }, {
+    "key" : "2020-02",
+    "value" : 64.71000000000095
+  }, {
+    "key" : "2020-03",
+    "value" : 270982.3899999999
+  }, {
+    "key" : "2020-04",
+    "value" : 11597.460000000005
+  }, {
+    "key" : "2020-05",
+    "value" : -1510.5499999999993
+  }, {
+    "key" : "2020-06",
+    "value" : -31803.350000000002
+  }, {
+    "key" : "2020-07",
+    "value" : -49438.56
+  }, {
+    "key" : "2020-08",
+    "value" : -67385.73
+  }, {
+    "key" : "2020-09",
+    "value" : -27008.77
+  }, {
+    "key" : "2020-10",
+    "value" : -28201.22
+  }, {
+    "key" : "2020-11",
+    "value" : -19495.309999999998
+  } ],
+  "query" : {
+    "accounts" : [ ],
+    "categories" : [ ],
+    "externalIds" : [ ],
+    "minAmount" : null,
+    "maxAmount" : null,
+    "endDate" : null,
+    "limit" : 0,
+    "offset" : 0,
+    "order" : "DESC",
+    "queryString" : "",
+    "sort" : "SCORE",
+    "startDate" : null,
+    "transactionId" : null,
+    "includeUpcoming" : false,
+    "lastTransactionId" : null
+  },
+  "results" : [ {
+    "score" : 0.0,
+    "timestamp" : 1583107200000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -98.0,
+      "categoryId" : "049ff3909f4d46fc9cb63a4f9b048ece",
+      "categoryType" : "EXPENSES",
+      "date" : 1583107200000,
+      "description" : "Norrbackaliv",
+      "formattedDescription" : "Norrbackaliv",
+      "id" : "fff9a5f31d294b728d9f441bd634a49f",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644826,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -98.0,
+      "originalDate" : 1583107200000,
+      "originalDescription" : "NORRBACKALIV",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -980,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -980,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -98.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1561939200000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 33.0,
+      "categoryId" : "1f9ae907ecaf49939cb8e960c74710ea",
+      "categoryType" : "INCOME",
+      "date" : 1561939200000,
+      "description" : "46709395997",
+      "formattedDescription" : "46709395997",
+      "id" : "ffed495f33f34ed08fa261db7b9f578a",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644813,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 33.0,
+      "originalDate" : 1561939200000,
+      "originalDescription" : "46709395997",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 330,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 330,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 33.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1548892800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -250.0,
+      "categoryId" : "c59a38ff206c4fe29a9e7b2bb1fcb3de",
+      "categoryType" : "EXPENSES",
+      "date" : 1548892800000,
+      "description" : "The Online T",
+      "formattedDescription" : "The Online T",
+      "id" : "ffe39d40c6e046a398f62c6097c0d803",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644833,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -250.0,
+      "originalDate" : 1548892800000,
+      "originalDescription" : "THE ONLINE T",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -2500,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -2500,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -250.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1456444800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -30.0,
+      "categoryId" : "63a7e66150d44c67a3380265c86e1c26",
+      "categoryType" : "EXPENSES",
+      "date" : 1456444800000,
+      "description" : "7-Eleven",
+      "formattedDescription" : "7-Eleven",
+      "id" : "ffe2b3e66a6041ef9d7d12fb0280b09c",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644822,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -30.0,
+      "originalDate" : 1456444800000,
+      "originalDescription" : "7-ELEVEN 451",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -300,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -300,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -30.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1488412800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -15.0,
+      "categoryId" : "f97ed636f1c54f1f91b5c648f9329155",
+      "categoryType" : "EXPENSES",
+      "date" : 1488412800000,
+      "description" : "Avg Maestro",
+      "formattedDescription" : "Avg Maestro",
+      "id" : "ffd095d91918421fad682f89fe02ee89",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644834,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -15.0,
+      "originalDate" : 1488412800000,
+      "originalDescription" : "AVG MAESTRO",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "DEFAULT",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -150,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -150,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -15.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1512950400000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 100.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1512950400000,
+      "description" : "Caspar Wikst",
+      "formattedDescription" : "Caspar Wikst",
+      "id" : "ffcf6e6cc85640ae8ac2b3f0c4eb8f9d",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644824,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 100.0,
+      "originalDate" : 1512950400000,
+      "originalDescription" : "CASPAR WIKST",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+        "TRANSFER_TWIN" : "17cb528158ec42be845e3c55750e9cb1"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 100.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1575849600000,
+    "transaction" : {
+      "accountId" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+      "amount" : -4000.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1575849600000,
+      "description" : "54110059933",
+      "formattedDescription" : "54110059933",
+      "id" : "ffcf351c8cca47689d91c1c64fe67d33",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644834,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -4000.0,
+      "originalDate" : 1575849600000,
+      "originalDescription" : "54110059933",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+        "TRANSFER_TWIN" : "99b1aa4dbc7e400da4d1d328ca947ada"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -40000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -40000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -4000.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1582502400000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -223.0,
+      "categoryId" : "c59a38ff206c4fe29a9e7b2bb1fcb3de",
+      "categoryType" : "EXPENSES",
+      "date" : 1582502400000,
+      "description" : "Phils Burger",
+      "formattedDescription" : "Phils Burger",
+      "id" : "ffc4b461dc4a4af5951bc3e77480baa4",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644803,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -223.0,
+      "originalDate" : 1582502400000,
+      "originalDescription" : "PHILS BURGER",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -2230,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -2230,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -223.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1481500800000,
+    "transaction" : {
+      "accountId" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+      "amount" : -300.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1481500800000,
+      "description" : "54110059933",
+      "formattedDescription" : "54110059933",
+      "id" : "ffc3310985b84cefa27b591df2e004e8",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644816,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -300.0,
+      "originalDate" : 1481500800000,
+      "originalDescription" : "54110059933",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+        "TRANSFER_TWIN" : "983986bff68e468a9cb3dd8e9430db93"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -3000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -3000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -300.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1518393600000,
+    "transaction" : {
+      "accountId" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+      "amount" : -100.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1518393600000,
+      "description" : "54110059933",
+      "formattedDescription" : "54110059933",
+      "id" : "ffb0b4138e244d9f93bc8f3de6f26779",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644832,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -100.0,
+      "originalDate" : 1518393600000,
+      "originalDescription" : "54110059933",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+        "TRANSFER_TWIN" : "ad3b9e62650c486db53e298d85848064"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -100.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1473033600000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -60.0,
+      "categoryId" : "c59a38ff206c4fe29a9e7b2bb1fcb3de",
+      "categoryType" : "EXPENSES",
+      "date" : 1473033600000,
+      "description" : "Stortorget",
+      "formattedDescription" : "Stortorget",
+      "id" : "ffabe4b9e1ac490184bc761b93ed4c27",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644822,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -60.0,
+      "originalDate" : 1473033600000,
+      "originalDescription" : "STORTORGET",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -600,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -600,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -60.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1537142400000,
+    "transaction" : {
+      "accountId" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+      "amount" : -500.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1537142400000,
+      "description" : "54110059933",
+      "formattedDescription" : "54110059933",
+      "id" : "ffa92db57a394eb782780bceaf20a0d6",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644835,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -500.0,
+      "originalDate" : 1537142400000,
+      "originalDescription" : "54110059933",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+        "TRANSFER_TWIN" : "ec6d9f4b067443d7ad3ee08c6efbf653"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -5000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -5000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -500.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1561334400000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 100.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1561334400000,
+      "description" : "Caspar Wikst",
+      "formattedDescription" : "Caspar Wikst",
+      "id" : "ffa8932effce49168b6f5b5f663a23e3",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644797,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 100.0,
+      "originalDate" : 1561334400000,
+      "originalDescription" : "CASPAR WIKST",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+        "TRANSFER_TWIN" : "829dcaf56b064bd89994ea26337eb212"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 100.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1571961600000,
+    "transaction" : {
+      "accountId" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+      "amount" : 35000.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1571961600000,
+      "description" : "Caspar Wikst",
+      "formattedDescription" : "Caspar Wikst",
+      "id" : "ff86943f950343b882b6e419fbb94671",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644828,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 35000.0,
+      "originalDate" : 1571961600000,
+      "originalDescription" : "CASPAR WIKST",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+        "TRANSFER_TWIN" : "fcf97d35488c4801b4052af166afc9a0"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 350000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 350000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 35000.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1484524800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -27.45,
+      "categoryId" : "3574aa8a22d4480983b9d4c0451c2776",
+      "categoryType" : "EXPENSES",
+      "date" : 1484524800000,
+      "description" : "Coop Martens",
+      "formattedDescription" : "Coop Martens",
+      "id" : "ff7c491b975640b48ead3748763be991",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644808,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -27.45,
+      "originalDate" : 1484524800000,
+      "originalDescription" : "COOP MARTENS",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -2745,
+        "scale" : 2,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -2745,
+        "scale" : 2,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -27.45,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1464307200000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -300.0,
+      "categoryId" : "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+      "categoryType" : "EXPENSES",
+      "date" : 1464307200000,
+      "description" : "46704673732",
+      "formattedDescription" : "46704673732",
+      "id" : "ff5ff671b9f14e77aa6d31a2b68a749d",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644826,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -300.0,
+      "originalDate" : 1464307200000,
+      "originalDescription" : "46704673732",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -3000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -3000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -300.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1548979200000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 349.9,
+      "categoryId" : "e6ada2dc635c48e586a3de69591995d7",
+      "categoryType" : "INCOME",
+      "date" : 1548979200000,
+      "description" : "Kjell & Co 0",
+      "formattedDescription" : "Kjell & Co 0",
+      "id" : "ff489578b68143c8a975054fc16dd960",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644834,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 349.9,
+      "originalDate" : 1548979200000,
+      "originalDescription" : "KJELL & CO 0",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 3499,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 3499,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 349.9,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1604016000000,
+    "transaction" : {
+      "accountId" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+      "amount" : -7000.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1604016000000,
+      "description" : "54110059933",
+      "formattedDescription" : "54110059933",
+      "id" : "ff460ba8178b40998d48c395b0754ab5",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644826,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -7000.0,
+      "originalDate" : 1604016000000,
+      "originalDescription" : "54110059933",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+        "TRANSFER_TWIN" : "d906d3ae9fa14da79bed45b310f48259"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -70000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -70000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -7000.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1511136000000,
+    "transaction" : {
+      "accountId" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+      "amount" : -500.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1511136000000,
+      "description" : "54110059933",
+      "formattedDescription" : "54110059933",
+      "id" : "ff4461403c0e4656a3469bc119ff6529",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644817,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -500.0,
+      "originalDate" : 1511136000000,
+      "originalDescription" : "54110059933",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+        "TRANSFER_TWIN" : "cde00af90f4c48fe843e6559649652e9"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -5000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -5000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -500.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1470700800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 5146.0,
+      "categoryId" : "e6ada2dc635c48e586a3de69591995d7",
+      "categoryType" : "INCOME",
+      "date" : 1470700800000,
+      "description" : "Sk9502271555",
+      "formattedDescription" : "Sk9502271555",
+      "id" : "ff34ca78bd634fb28b4926d9fd07732a",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644826,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 5146.0,
+      "originalDate" : 1470700800000,
+      "originalDescription" : "SK9502271555",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "DEFAULT",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 51460,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 51460,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 5146.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1581033600000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 140.0,
+      "categoryId" : "1f9ae907ecaf49939cb8e960c74710ea",
+      "categoryType" : "INCOME",
+      "date" : 1581033600000,
+      "description" : "46709395997",
+      "formattedDescription" : "46709395997",
+      "id" : "ff2f5110a27a4258a0c8f702ecb75516",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644803,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 140.0,
+      "originalDate" : 1581033600000,
+      "originalDescription" : "46709395997",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 1400,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 1400,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 140.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1468800000000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -120.0,
+      "categoryId" : "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+      "categoryType" : "EXPENSES",
+      "date" : 1468800000000,
+      "description" : "46709395997",
+      "formattedDescription" : "46709395997",
+      "id" : "ff27e722bf2e431787c1aa0e862eb9cf",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644822,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -120.0,
+      "originalDate" : 1468800000000,
+      "originalDescription" : "46709395997",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -1200,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -1200,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -120.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1497830400000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -80.0,
+      "categoryId" : "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+      "categoryType" : "EXPENSES",
+      "date" : 1497830400000,
+      "description" : "46709395997",
+      "formattedDescription" : "46709395997",
+      "id" : "ff23dde595cc45f1887676abaaba6cfc",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644819,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -80.0,
+      "originalDate" : 1497830400000,
+      "originalDescription" : "46709395997",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -800,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -800,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -80.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1523232000000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 100.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1523232000000,
+      "description" : "Caspar Wikst",
+      "formattedDescription" : "Caspar Wikst",
+      "id" : "ff1faf19b1054d9a9cfb73d18b4a3151",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644826,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 100.0,
+      "originalDate" : 1523232000000,
+      "originalDescription" : "CASPAR WIKST",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+        "TRANSFER_TWIN" : "d72a5b9df1084a479485606244b75156"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 100.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1490572800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -237.0,
+      "categoryId" : "c59a38ff206c4fe29a9e7b2bb1fcb3de",
+      "categoryType" : "EXPENSES",
+      "date" : 1490572800000,
+      "description" : "Halong",
+      "formattedDescription" : "Halong",
+      "id" : "ff1156ea97744f29a41990c15b8ceaa3",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644813,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -237.0,
+      "originalDate" : 1490572800000,
+      "originalDescription" : "HALONG",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -2370,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -2370,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -237.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1495756800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -296.0,
+      "categoryId" : "c59a38ff206c4fe29a9e7b2bb1fcb3de",
+      "categoryType" : "EXPENSES",
+      "date" : 1495756800000,
+      "description" : "Stortorget",
+      "formattedDescription" : "Stortorget",
+      "id" : "ff078a2e193d40ec9a440f3be93a83d5",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644832,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -296.0,
+      "originalDate" : 1495756800000,
+      "originalDescription" : "STORTORGET",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -2960,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -2960,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -296.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1561680000000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -265.62,
+      "categoryId" : "3574aa8a22d4480983b9d4c0451c2776",
+      "categoryType" : "EXPENSES",
+      "date" : 1561680000000,
+      "description" : "Lidl 271 / D",
+      "formattedDescription" : "Lidl 271 / D",
+      "id" : "ff0047ce12a94cae8d65206f1549f6d1",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644823,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -265.62,
+      "originalDate" : 1561680000000,
+      "originalDescription" : "LIDL 271 / D",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -26562,
+        "scale" : 2,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -26562,
+        "scale" : 2,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -265.62,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1499385600000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -86.0,
+      "categoryId" : "c59a38ff206c4fe29a9e7b2bb1fcb3de",
+      "categoryType" : "EXPENSES",
+      "date" : 1499385600000,
+      "description" : "Mcd Sthlm",
+      "formattedDescription" : "Mcd Sthlm",
+      "id" : "fefef906ad4f49389fcc8a1b4e4b6668",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644816,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -86.0,
+      "originalDate" : 1499385600000,
+      "originalDescription" : "MCD  STHLM",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -860,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -860,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -86.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1513036800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -165.0,
+      "categoryId" : "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+      "categoryType" : "EXPENSES",
+      "date" : 1513036800000,
+      "description" : "46709555230",
+      "formattedDescription" : "46709555230",
+      "id" : "fefe63524fea47129007ae3c8c855c0f",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644822,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -165.0,
+      "originalDate" : 1513036800000,
+      "originalDescription" : "46709555230",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -1650,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -1650,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -165.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1543968000000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 500.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1543968000000,
+      "description" : "Caspar Wikst",
+      "formattedDescription" : "Caspar Wikst",
+      "id" : "fee2119964c9471ca910bb3e0724f513",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644797,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 500.0,
+      "originalDate" : 1543968000000,
+      "originalDescription" : "CASPAR WIKST",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+        "TRANSFER_TWIN" : "41c2146205494cc7b047bd3a2a99ead5"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 5000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 5000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 500.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1468800000000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -120.0,
+      "categoryId" : "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+      "categoryType" : "EXPENSES",
+      "date" : 1468800000000,
+      "description" : "46706703284",
+      "formattedDescription" : "46706703284",
+      "id" : "fede86fbd41743fd9e18874b81bf2f91",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644822,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -120.0,
+      "originalDate" : 1468800000000,
+      "originalDescription" : "46706703284",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -1200,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -1200,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -120.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1569801600000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 200.0,
+      "categoryId" : "1f9ae907ecaf49939cb8e960c74710ea",
+      "categoryType" : "INCOME",
+      "date" : 1569801600000,
+      "description" : "46730855599",
+      "formattedDescription" : "46730855599",
+      "id" : "fedc2145f9814fc1b424d0ebe2bb8737",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644834,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 200.0,
+      "originalDate" : 1569801600000,
+      "originalDescription" : "46730855599",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 2000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 2000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 200.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1488153600000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -22.0,
+      "categoryId" : "63a7e66150d44c67a3380265c86e1c26",
+      "categoryType" : "EXPENSES",
+      "date" : 1488153600000,
+      "description" : "Pressbyrån",
+      "formattedDescription" : "Pressbyrån",
+      "id" : "fed7cefae6a746f0af52297eec181833",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644830,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -22.0,
+      "originalDate" : 1488153600000,
+      "originalDescription" : "PRESSBYRÅN 4",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -220,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -220,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -22.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1572393600000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -182.0,
+      "categoryId" : "c59a38ff206c4fe29a9e7b2bb1fcb3de",
+      "categoryType" : "EXPENSES",
+      "date" : 1572393600000,
+      "description" : "Foodora Swed",
+      "formattedDescription" : "Foodora Swed",
+      "id" : "fec84bc9c7d24339ac28daac2d9a42fc",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644822,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -182.0,
+      "originalDate" : 1572393600000,
+      "originalDescription" : "FOODORA SWED",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -1820,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -1820,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -182.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1588118400000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -4938.0,
+      "categoryId" : "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+      "categoryType" : "EXPENSES",
+      "date" : 1588118400000,
+      "description" : "Fors Ragnar",
+      "formattedDescription" : "Fors Ragnar",
+      "id" : "fec13bb9afdd4e9fa260258658c49a7b",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644808,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -4938.0,
+      "originalDate" : 1588118400000,
+      "originalDescription" : "FORS RAGNAR",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "DEFAULT",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -49380,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -49380,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -4938.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1526860800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -120.0,
+      "categoryId" : "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+      "categoryType" : "EXPENSES",
+      "date" : 1526860800000,
+      "description" : "Salehan Expr",
+      "formattedDescription" : "Salehan Expr",
+      "id" : "feba14a16a284f8b85d964adfcfa8098",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644828,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -120.0,
+      "originalDate" : 1526860800000,
+      "originalDescription" : "SALEHAN EXPR",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -1200,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -1200,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -120.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1470268800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 2000.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1470268800000,
+      "description" : "Caspar Wikst",
+      "formattedDescription" : "Caspar Wikst",
+      "id" : "fea6aca8c36141ccacb0877a99945b06",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644811,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 2000.0,
+      "originalDate" : 1470268800000,
+      "originalDescription" : "CASPAR WIKST",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+        "TRANSFER_TWIN" : "135c0fc543944fe3b47db494bcacc178"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 20000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 20000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 2000.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1605571200000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -62.0,
+      "categoryId" : "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+      "categoryType" : "EXPENSES",
+      "date" : 1605571200000,
+      "description" : "46709959444",
+      "formattedDescription" : "46709959444",
+      "id" : "fea013e7b5814444bbe21ac2c13f52bf",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644808,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -62.0,
+      "originalDate" : 1605571200000,
+      "originalDescription" : "46709959444",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -620,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -620,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -62.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1559520000000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -27.5,
+      "categoryId" : "b64f0e4f328a4d00b623b7ca3f588879",
+      "categoryType" : "EXPENSES",
+      "date" : 1559520000000,
+      "description" : "Coop Central",
+      "formattedDescription" : "Coop Central",
+      "id" : "fe9cb0f5104142439751c0f2abc9a7ef",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644819,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -27.5,
+      "originalDate" : 1559520000000,
+      "originalDescription" : "COOP CENTRAL",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -275,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -275,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -27.5,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1522022400000,
+    "transaction" : {
+      "accountId" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+      "amount" : -500.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1522022400000,
+      "description" : "54110059933",
+      "formattedDescription" : "54110059933",
+      "id" : "fe9b7abb891f49928f1471154555de61",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644820,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -500.0,
+      "originalDate" : 1522022400000,
+      "originalDescription" : "54110059933",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+        "TRANSFER_TWIN" : "dc94d3847ae148da823a7fefa9585811"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -5000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -5000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -500.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1562544000000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 100.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1562544000000,
+      "description" : "Caspar Wikst",
+      "formattedDescription" : "Caspar Wikst",
+      "id" : "fe8f6090e207418a82ced27268e78115",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644833,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 100.0,
+      "originalDate" : 1562544000000,
+      "originalDescription" : "CASPAR WIKST",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+        "TRANSFER_TWIN" : "47ff320acea04c9594f7140829f436ee"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 100.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1540166400000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -168.0,
+      "categoryId" : "c59a38ff206c4fe29a9e7b2bb1fcb3de",
+      "categoryType" : "EXPENSES",
+      "date" : 1540166400000,
+      "description" : "Domino S Piz",
+      "formattedDescription" : "Domino S Piz",
+      "id" : "fe8db5416ab24c63b25d4956decf76dd",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644832,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -168.0,
+      "originalDate" : 1540166400000,
+      "originalDescription" : "DOMINO S PIZ",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -1680,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -1680,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -168.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1603670400000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -20.0,
+      "categoryId" : "ea8bc346e5874b1eaceafa6481e5f901",
+      "categoryType" : "EXPENSES",
+      "date" : 1603670400000,
+      "description" : "Moow Mobilit",
+      "formattedDescription" : "Moow Mobilit",
+      "id" : "fe85b1c02db04a889263c755221bc7d7",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644820,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -20.0,
+      "originalDate" : 1603670400000,
+      "originalDescription" : "MOOW MOBILIT",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -200,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -200,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -20.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1578873600000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -222.0,
+      "categoryId" : "e572c2027faa4672b259e4adadf9d249",
+      "categoryType" : "EXPENSES",
+      "date" : 1578873600000,
+      "description" : "Berns Bareve",
+      "formattedDescription" : "Berns Bareve",
+      "id" : "fe85b02c7f9b4d7eafe0c54a81904318",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644826,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -222.0,
+      "originalDate" : 1578873600000,
+      "originalDescription" : "BERNS BAREVE",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -2220,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -2220,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -222.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1454889600000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 90.0,
+      "categoryId" : "1f9ae907ecaf49939cb8e960c74710ea",
+      "categoryType" : "INCOME",
+      "date" : 1454889600000,
+      "description" : "46722131359",
+      "formattedDescription" : "46722131359",
+      "id" : "fe82877373144058a5a6b3b53a179f2f",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644832,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 90.0,
+      "originalDate" : 1454889600000,
+      "originalDescription" : "46722131359",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 900,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 900,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 90.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1574035200000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -400.0,
+      "categoryId" : "adb78e1f35b44f88b5da5ebbefafe25b",
+      "categoryType" : "EXPENSES",
+      "date" : 1574035200000,
+      "description" : "1235952106",
+      "formattedDescription" : "1235952106",
+      "id" : "fe6a96cd57dd4a93beb4275daa2940e4",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644824,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -400.0,
+      "originalDate" : 1574035200000,
+      "originalDescription" : "1235952106",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -4000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -4000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -400.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1486944000000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -57.85,
+      "categoryId" : "3574aa8a22d4480983b9d4c0451c2776",
+      "categoryType" : "EXPENSES",
+      "date" : 1486944000000,
+      "description" : "Coop Martens",
+      "formattedDescription" : "Coop Martens",
+      "id" : "fe605de56b43453dbf47507ca61fc07d",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644813,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -57.85,
+      "originalDate" : 1486944000000,
+      "originalDescription" : "COOP MARTENS",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -5785,
+        "scale" : 2,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -5785,
+        "scale" : 2,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -57.85,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1562544000000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : 100.0,
+      "categoryId" : "d8f37f7d19c240abb4ef5d5dbebae4ef",
+      "categoryType" : "TRANSFERS",
+      "date" : 1562544000000,
+      "description" : "Caspar Wikst",
+      "formattedDescription" : "Caspar Wikst",
+      "id" : "fe41013e17c648ca9cac92fd7934fab6",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644797,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : 100.0,
+      "originalDate" : 1562544000000,
+      "originalDescription" : "CASPAR WIKST",
+      "payload" : {
+        "TRANSFER_ACCOUNT" : "cb8ffda3a7fc4d23a7db7e3bf1bd2a7d",
+        "TRANSFER_TWIN" : "40bef1c6e65647c5bc73d89f71f243b6"
+      },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "TRANSFER",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : 1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : 1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : 100.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1453420800000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -40.4,
+      "categoryId" : "3574aa8a22d4480983b9d4c0451c2776",
+      "categoryType" : "EXPENSES",
+      "date" : 1453420800000,
+      "description" : "Coop Konsum",
+      "formattedDescription" : "Coop Konsum",
+      "id" : "fe40a41384c84c15b3b81604dd022900",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644823,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -40.4,
+      "originalDate" : 1453420800000,
+      "originalDescription" : "COOP KONSUM",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -404,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -404,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -40.4,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  }, {
+    "score" : 0.0,
+    "timestamp" : 1467158400000,
+    "transaction" : {
+      "accountId" : "b0254c4d57dc4beba97ba9c79d8dcde7",
+      "amount" : -100.0,
+      "categoryId" : "3574aa8a22d4480983b9d4c0451c2776",
+      "categoryType" : "EXPENSES",
+      "date" : 1467158400000,
+      "description" : "Willy Ohlsso",
+      "formattedDescription" : "Willy Ohlsso",
+      "id" : "fe253735027c4b39aaa710394b75d9ab",
+      "inserted" : 1606063626000,
+      "lastModified" : 1606063644824,
+      "merchantId" : null,
+      "notes" : "",
+      "originalAmount" : -100.0,
+      "originalDate" : 1467158400000,
+      "originalDescription" : "WILLY OHLSSO",
+      "payload" : { },
+      "pending" : false,
+      "timestamp" : 1606063626501,
+      "type" : "CREDIT_CARD",
+      "userId" : "6e6ba4cd76fc4b8ab83267d3f9d8141d",
+      "upcoming" : false,
+      "userModifiedAmount" : false,
+      "userModifiedCategory" : false,
+      "userModifiedDate" : false,
+      "userModifiedDescription" : false,
+      "userModifiedLocation" : false,
+      "currencyDenominatedAmount" : {
+        "unscaledValue" : -1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "currencyDenominatedOriginalAmount" : {
+        "unscaledValue" : -1000,
+        "scale" : 1,
+        "currencyCode" : "SEK"
+      },
+      "parts" : [ ],
+      "internalPayload" : { },
+      "partnerPayload" : { },
+      "dispensableAmount" : -100.0,
+      "userModified" : false
+    },
+    "type" : "TRANSACTION"
+  } ]
+}
