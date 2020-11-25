@@ -18,7 +18,7 @@ const base = "https://api.tink.se/api/v1";
 // This is the server API, where the client can post a received OAuth code.
 app.post("/callback", function (req, res) {
     getAccessToken(req.body.code)
-        .then(response => getTransactionData(response.access_token))
+        .then(response => getTransactionData(response.access_token, 1000, '2020-01-01', '2020-12-31', 'EXPENSES'))
         .then(response => getTopMerchants(response))
         .then(response => {
             res.json({
@@ -36,7 +36,7 @@ app.post("/test_api_local", function (req, res) {
 });
 
 app.post("/test_api_real_data", function (req, res) {
-    return getTransactionData(AUTH_TOKEN).then(data => getTopMerchants(data));
+    return getTransactionData(AUTH_TOKEN , 1000, '2020-01-01', '2020-12-31', 'EXPENSES').then(data => getTopMerchants(data));
 });
 
 async function handleResponse(response) {
@@ -103,7 +103,7 @@ async function getAccessToken(code) {
     return handleResponse(response);
 }
 
-async function getTransactionData(token) {
+async function getTransactionData(token, limit, starDate, endDate, categoryType) {
     const response = await fetch(base + "/search", {
         method: "POST",
         headers: {
@@ -113,10 +113,10 @@ async function getTransactionData(token) {
 
         },
         body: JSON.stringify({
-            limit: 1000,
-            startDate: "2020-01-01",
-            endDate: "2020-12-31",
-            categoryType: 'EXPENSES'
+            limit: limit,
+            startDate: starDate,
+            endDate: endDate,
+            categoryType: categoryType,
         })
     });
     return handleResponse(response);
