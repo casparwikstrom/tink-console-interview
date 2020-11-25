@@ -26,7 +26,7 @@ export const CallbackPage = ({ location }) => {
             {/*<Header {...headerProps} />*/}
             <TransactionPage loading={loading} data={data} error={error} />
             <p style={{ fontSize: "18px", paddingTop: "40px" }}>{message}</p>
-            <Button style={{ margin: "30px" }} href="/">
+            <Button className={"grad red"} href="/">
                 Take me back
             </Button>
         </div>

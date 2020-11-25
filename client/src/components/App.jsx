@@ -7,25 +7,8 @@ import {Main} from "./Main";
 export const App = () => (
     <Container className="center">
         <div className={"iphone"}>
-            <Row>
-                <Col>
-                    <a
-                        href="/"
-                        style={{
-                            textDecoration: "none",
-                            color: "inherit",
-                            display: "inline-flex",
-                            alignItems: "center",
-                            marginTop: 15
-                        }}
-                    >
-                        <span className="circle"/>
-                        <h2 style={{margin: 0}}>Example</h2>
-                    </a>
-                </Col>
-            </Row>
             <Row className="app">
-                <Col lg={{size: 12}} style={{paddingTop: "70px"}}>
+                <Col lg={{size: 12}} style={{paddingTop: "30px"}}>
                     <Switch>
                         <Route exact path="/" component={Main}/>
                         <Route exact path="/callback" component={CallbackPage}/>

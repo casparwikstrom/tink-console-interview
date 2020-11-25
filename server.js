@@ -7,7 +7,7 @@ const fs = require('fs')
 
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 const CLIENT_SECRET = process.env.TINK_CLIENT_SECRET;
-const AUTH_TOKEN = process.env.AUTH_TOKEN;
+const AUTH_TOKEN = "";
 
 app.use(express.static(path.join(__dirname, "client/build")));
 app.use(bodyParser.json());
@@ -40,6 +40,7 @@ app.post("/test_api_real_data", function (req, res) {
 });
 
 async function handleResponse(response) {
+    console.log("responseresponseresponse", response)
     const json = await response.json();
     if (response.status !== 200) {
         /*throw new Error(json.errorMessage);*/
@@ -70,7 +71,7 @@ async function getTopMerchants(transactionData) {
     });
 
     var max = Number.NEGATIVE_INFINITY
-    var topMerchant = {}
+    var topMerchant = []
 
     for (let key in merchantMap) {
         if (merchantMap[key] > max) {
@@ -78,7 +79,7 @@ async function getTopMerchants(transactionData) {
             topMerchant = {"name": key, "amount": merchantMap[key]}
         }
     }
-
+    console.log("topMerchant", topMerchant)
     return topMerchant;
 }
 
@@ -104,6 +105,7 @@ async function getAccessToken(code) {
 }
 
 async function getTransactionData(token, limit, starDate, endDate, categoryType) {
+    console.log("accessToken", token)
     const response = await fetch(base + "/search", {
         method: "POST",
         headers: {

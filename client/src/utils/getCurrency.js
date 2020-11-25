@@ -1,2 +1,2 @@
-export const getCurrency = data =>
-    data ? data.response.userData.profile.currency : "";
+/*export const getCurrency = data =>
+    data ? data.response.userData.profile.currency : "";*/

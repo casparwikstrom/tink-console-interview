@@ -17,7 +17,7 @@ export const AuthorizationLink = ({ locale, market, scope, ssn }) => {
         "&locale=" +
         locale;
 
-    return <Button href={link}>Connect Bank</Button>;
+    return <Button className={"green grad"} href={link}>Connect Bank</Button>;
 };
 
 AuthorizationLink.propTypes = {

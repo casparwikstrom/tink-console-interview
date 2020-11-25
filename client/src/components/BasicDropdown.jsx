@@ -26,7 +26,7 @@ export const BasicDropdown = ({ items, name, onSelect }) => {
 
     return (
         <Dropdown isOpen={isOpen} toggle={toggle}>
-            <DropdownToggle caret>{value}</DropdownToggle>
+            <DropdownToggle className={"grad blue"} caret>{value}</DropdownToggle>
             <DropdownMenu>{dropdownItems}</DropdownMenu>
         </Dropdown>
     );
