@@ -15,7 +15,6 @@ export const Transactions = ({data}) => {
     if (data.count === 0) {
         return (
             <div>
-                <h4 className="pink">Some of your transactions</h4>
                 <div style={{margin: "30px"}}>
                     <p>You don’t seem to have any transactions.</p>
                 </div>
@@ -24,11 +23,18 @@ export const Transactions = ({data}) => {
     }
 
     return (
-
-        <div>
+        <div className="results-page">
             <img src={`http://logo.clearbit.com/spotify.se`} alt="test-img"/>
-            <div style={{margin: "30px"}}>{merchant.name}</div>
-            <div style={{margin: "30px"}}>{formatNumber(merchant.amount)}</div>
+            <div style={{margin: "30px"}}>
+                <h2>
+                    {merchant.name}
+                </h2>
+            </div>
+            <div style={{margin: "30px"}}>
+                <p>
+                    During 2020 you've spent{formatNumber(merchant.amount)} at {merchant.name}
+                </p>
+            </div>
         </div>
     );
 };

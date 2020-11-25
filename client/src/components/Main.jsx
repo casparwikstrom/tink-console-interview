@@ -14,14 +14,15 @@ export const Main = () => {
                 <h2 style={{margin: 0}}>Tink Console</h2>
             </div>
             <br/>
-            <p>We can help you analyze your financial status.</p>
-            <p>
-                Or actually we can’t. We’re just a simple example app. But you can
-                connect your bank to see your account data, transactions and
-                investments!
-            </p>
-
-            <div style={{padding: "50px 0 10px 0"}}>
+            <div className="info">
+                <p>We can help you analyze your financial status.</p>
+                <p>
+                    Or actually we can’t. We’re just a simple example app. But you can
+                    connect your bank to see your account data, transactions and
+                    investments!
+                </p>
+            </div>
+            <div style={{padding: "30px 0 10px 0"}}>
                 <BasicDropdown
                     name="Choose a market"
                     items={[
@@ -65,7 +66,7 @@ export const Main = () => {
             </div>
 
             <AuthorizationLink
-                scope="transactions:read,user:read"
+                scope="transactions:read"
                 market={market}
                 locale={locale}
             />

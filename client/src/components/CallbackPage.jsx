@@ -22,7 +22,7 @@ export const CallbackPage = ({ location }) => {
     const headerProps = getHeaderProps(error);
 
     return (
-        <div>
+        <div className="wrapper">
             {/*<Header {...headerProps} />*/}
             <TransactionPage loading={loading} data={data} error={error} />
             <p style={{ fontSize: "18px", paddingTop: "40px" }}>{message}</p>
