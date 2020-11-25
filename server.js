@@ -3,24 +3,23 @@ const app = express();
 const bodyParser = require("body-parser");
 const path = require("path");
 const fetch = require("node-fetch");
-
+const fs = require('fs')
 
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 const CLIENT_SECRET = process.env.TINK_CLIENT_SECRET;
+const AUTH_TOKEN = process.env.AUTH_TOKEN;
 
 app.use(express.static(path.join(__dirname, "client/build")));
 app.use(bodyParser.json());
 
 // Needed to make client-side routing work in production.
-
-
 const base = "https://api.tink.se/api/v1";
 
 // This is the server API, where the client can post a received OAuth code.
 app.post("/callback", function (req, res) {
     getAccessToken(req.body.code)
-        .then(response => getData(response.access_token))
-        .then(response => sortData(response))
+        .then(response => getTransactionData(response.access_token, 1000, '2020-01-01', '2020-12-31', 'EXPENSES'))
+        .then(response => getTopMerchants(response))
         .then(response => {
             res.json({
                 response
@@ -32,14 +31,13 @@ app.post("/callback", function (req, res) {
         });
 });
 
-app.post("/sort", function (req, res) {
-    return readData().then(data => sortData(data));
+app.post("/test_api_local", function (req, res) {
+    return readTestData("json.json").then(data => getTopMerchants(data));
 });
 
-app.post("/sorttwo", function (req, res) {
-    return getData("eyJhbGciOiJFUzI1NiIsImtpZCI6ImZkOGNiNjRlLWVhODAtNDc3NC04MTJmLWFjNWM2NjliMWJhYiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYyMjcxOTQsImlhdCI6MTYwNjIxOTk5NCwiaXNzIjoidGluazovL2F1dGgiLCJqdGkiOiJlYTA0YzIyYS02NWU4LTRkYTEtOTRiNi03Yjg5Y2ZhMDBjZTUiLCJvcmlnaW4iOiJtYWluIiwic2NvcGVzIjpbInVzZXI6cmVhZCIsInRyYW5zYWN0aW9uczpyZWFkIl0sInN1YiI6InRpbms6Ly9hdXRoL3VzZXIvNzAwMjBhMjM0OTdlNDE3MDg3Y2MzZmUwZDBkNzZiMTUiLCJ0aW5rOi8vYXBwL2lkIjoiNDQyZDE3YWQ3ZGMxNDEzYTkzYTY4NjI0MzdmMGIwNzUifQ.fj-df-EnnJ5p5MhUPq-69NHUIAUo21Ku0pxgkUL8MZLvUqlkq07-IHipuGAeKao8fjp_w6wa5I9gMS04SuBhNQ").then(data => sortData(data));
+app.post("/test_api_real_data", function (req, res) {
+    return getTransactionData(AUTH_TOKEN , 1000, '2020-01-01', '2020-12-31', 'EXPENSES').then(data => getTopMerchants(data));
 });
-
 
 async function handleResponse(response) {
     const json = await response.json();
@@ -52,82 +50,36 @@ async function handleResponse(response) {
     return json;
 }
 
-async function readData() {
-    const fs = require('fs')
-    data = fs.readFileSync('json.json')
+async function readTestData(path) {
+    data = fs.readFileSync(path)
     json = JSON.parse(data)
     return json;
 }
 
-async function getData(accessToken) {
-    console.log("accessToken", accessToken)
-    const transactionData = await (getTransactionData(accessToken))
-    /*const [
-    categoryData,
-    userData,
-    /!*accountData,
-    investmentData,*!/
-    transactionData
-    ] = await Promise.all([
-    getCategoryData(accessToken),
-    getUserData(accessToken),
-    /!*getAccountData(accessToken),
-    getInvestmentData(accessToken),*!/
-    getTransactionData(accessToken)
-    ]);
+async function getTopMerchants(transactionData) {
 
-    return {
-    categoryData,
-    userData,
-    /!*accountData,
-    investmentData,*!/
-    transactionData
-    };*/
-    return transactionData;
-}
+    const transactions = await transactionData.results;
+    let merchantMap = {};
 
-async function sortData(data) {
-
-    const newData = data.results;
-    const newinput = [];
-    const testdata = await newData;
-    const parsedjson = [];
-
-    testdata.forEach(function (i) {
-        newinput.push(i.transaction);
-    });
-
-    var holder = {};
-
-    newinput.forEach(function (d) {
-
-        if (holder.hasOwnProperty(d)) {
-            holder[d.formattedDescription] = holder[d.formattedDescription] + d;
+    transactions.forEach(function (transaction) {
+        if (merchantMap[transaction.transaction.formattedDescription]) {
+            merchantMap[transaction.transaction.formattedDescription] = merchantMap[transaction.transaction.formattedDescription] + transaction.transaction.amount;
         } else {
-            holder[d.formattedDescription] = d;
+            merchantMap[transaction.transaction.formattedDescription] = transaction.transaction.amount;
         }
     });
 
-    for (var prop in holder) {
-        parsedjson.push({name: prop, data: holder[prop]});
+    var max = Number.NEGATIVE_INFINITY
+    var topMerchant = {}
+
+    for (let key in merchantMap) {
+        if (merchantMap[key] > max) {
+            max = merchantMap[key]
+            topMerchant = {"name": key, "amount": merchantMap[key]}
+        }
     }
 
-    //removes Swish
-    const noswishjson = await parsedjson.filter(function (el) {
-        if (!el.name.startsWith('46')) {
-            return el
-        }
-    });
-
-    const sorted = noswishjson.sort(function (a, b) {
-        return a.data.amount - b.data.amount;
-    });
-
-    console.log("SORTED", sorted);
-
-    return sorted;
-
-
+    return topMerchant;
 }
 
 async function getAccessToken(code) {
@@ -151,41 +103,7 @@ async function getAccessToken(code) {
     return handleResponse(response);
 }
 
-async function getUserData(token) {
-    const response = await fetch(base + "/user", {
-        headers: {
-            Authorization: "Bearer " + token
-        }
-    });
-
-    return handleResponse(response);
-}
-
-/*async function getAccountData(token) {
-const response = await fetch(base + "/accounts/list", {
-headers: {
-"Content-Type": "application/json",
-Authorization: "Bearer " + token
-}
-});
-
-return handleResponse(response);
-}*/
-
-/*async function getInvestmentData(token) {
-const response = await fetch(base + "/investments", {
-headers: {
-"Content-Type": "application/json",
-Authorization: "Bearer " + token
-}
-});
-
-return handleResponse(response);
-}*/
-
-/*Category: "EXPENSES",
-categoryType: "EXPENSES"*/
-async function getTransactionData(token) {
+async function getTransactionData(token, limit, starDate, endDate, categoryType) {
     const response = await fetch(base + "/search", {
         method: "POST",
         headers: {
@@ -195,22 +113,12 @@ async function getTransactionData(token) {
 
         },
         body: JSON.stringify({
-            limit: 1000,
-            startDate: "2020-01-01",
-            endDate: "2020-12-31",
-            categoryType: 'EXPENSES'
+            limit: limit,
+            startDate: starDate,
+            endDate: endDate,
+            categoryType: categoryType,
         })
     });
-    return handleResponse(response);
-}
-
-async function getCategoryData(token) {
-    const response = await fetch(base + "/categories", {
-        headers: {
-            Authorization: "Bearer " + token
-        }
-    });
-
     return handleResponse(response);
 }
 
