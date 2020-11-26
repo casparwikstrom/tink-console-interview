@@ -45,7 +45,7 @@ export const useCallbackData = ({ search }) => {
                 }));
             }
         }
-
+        //if the is code in param, run getData
         if (queryCode) {
             getData(queryCode);
         }
