@@ -8,7 +8,7 @@ export const App = () => (
     <Container className="center">
         <div className={"iphone"}>
             <Row className="app">
-                <Col lg={{size: 12}} style={{paddingTop: "30px", min_height: "600px" }}>
+                <Col lg={{size: 12}} style={{paddingTop: "60px", min_height: "600px" }}>
                     <Switch>
                         <Route exact path="/" component={Main}/>
                         <Route exact path="/callback" component={CallbackPage}/>

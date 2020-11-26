@@ -2,28 +2,36 @@
     text-align: center;
 }
 
-* {
-    border: 1px solid red;
-}
-
 .App-logo {
     height: 40vmin;
     pointer-events: none;
 }
-.wrapper{
+
+.wrapper {
     min-height: 600px;
 }
 
-.tinkh2{
+.tinkh2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 15px 0px 15px;
 }
-.info p{
+
+.logo-image {
+    padding: 15px 0px 15px;
+}
+
+.info p {
     text-align: center;
 }
-.results-page p{
-    font-size: 12px;
+
+.results-page {
+    text-align: center;
+}
+
+.results-page p {
+    font-size: 14px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -104,7 +112,7 @@
 }
 
 .btn.blue {
-    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%);
     border-color: #1fa2ff78;
 }
 
@@ -125,9 +133,7 @@
     border-color: #1fa2ff78;
 }
 
-.results-page{
 
-}
 
 
 

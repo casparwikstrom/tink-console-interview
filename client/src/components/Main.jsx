@@ -9,20 +9,18 @@ export const Main = () => {
 
     return (
         <div>
+            <div className="logo-image">
+                <img src="//logo.clearbit.com/tink.com?size=80"/>
+            </div>
             <div className="tinkh2">
-                <img src="//logo.clearbit.com/tink.com?size=40"/>
                 <h2 style={{margin: 0}}>Tink Console</h2>
             </div>
-            <br/>
-            <div className="info">
-                <p>We can help you analyze your financial status.</p>
+            <div>
                 <p>
-                    Or actually we can’t. We’re just a simple example app. But you can
-                    connect your bank to see your account data, transactions and
-                    investments!
+                    Check out your top merchant this year!
                 </p>
             </div>
-            <div style={{padding: "30px 0 10px 0"}}>
+            <div style={{padding: "20px 0 20px 0"}}>
                 <BasicDropdown
                     name="Choose a market"
                     items={[
@@ -44,7 +42,7 @@ export const Main = () => {
                 />
             </div>
 
-            <div style={{padding: "10px 0 50px 0"}}>
+            <div style={{padding: "20px 0 20px 0"}}>
                 <BasicDropdown
                     name="Choose a locale"
                     items={[

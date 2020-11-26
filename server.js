@@ -7,7 +7,8 @@ const fs = require('fs')
 
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 const CLIENT_SECRET = process.env.TINK_CLIENT_SECRET;
-const AUTH_TOKEN = "";
+//Testing the api
+/*const AUTH_TOKEN = "";*/
 
 app.use(express.static(path.join(__dirname, "client/build")));
 app.use(bodyParser.json());
@@ -31,16 +32,16 @@ app.post("/callback", function (req, res) {
         });
 });
 
+//Testing the api
 app.post("/test_api_local", function (req, res) {
     return readTestData("json.json").then(data => getTopMerchants(data));
 });
 
 app.post("/test_api_real_data", function (req, res) {
-    return getTransactionData(AUTH_TOKEN , 1000, '2020-01-01', '2020-12-31', 'EXPENSES').then(data => getTopMerchants(data));
+    return getTransactionData(AUTH_TOKEN, 1000, '2020-01-01', '2020-12-31', 'EXPENSES').then(data => getTopMerchants(data));
 });
 
 async function handleResponse(response) {
-    console.log("responseresponseresponse", response)
     const json = await response.json();
     if (response.status !== 200) {
         /*throw new Error(json.errorMessage);*/
@@ -64,9 +65,10 @@ async function getTopMerchants(transactionData) {
 
     transactions.forEach(function (transaction) {
         if (merchantMap[transaction.transaction.formattedDescription]) {
-            merchantMap[transaction.transaction.formattedDescription] = merchantMap[transaction.transaction.formattedDescription] + transaction.transaction.amount;
+
+            merchantMap[transaction.transaction.formattedDescription] = merchantMap[transaction.transaction.formattedDescription] + transaction.transaction
         } else {
-            merchantMap[transaction.transaction.formattedDescription] = transaction.transaction.amount;
+            merchantMap[transaction.transaction.formattedDescription] = transaction.transaction
         }
     });
 
@@ -74,12 +76,17 @@ async function getTopMerchants(transactionData) {
     var topMerchant = []
 
     for (let key in merchantMap) {
-        if (merchantMap[key] > max) {
-            max = merchantMap[key]
-            topMerchant = {"name": key, "amount": merchantMap[key]}
+        if (merchantMap[key]["amount"] > max) {
+            max = merchantMap[key][["amount"]]
+            topMerchant = {
+                name: key,
+                amount: merchantMap[key]["currencyDenominatedAmount"]["currencyCode"],
+                currency: merchantMap[key]["amount"],
+                img: "http://logo.clearbit.com/spotify.se",
+
+            }
         }
     }
-    console.log("topMerchant", topMerchant)
     return topMerchant;
 }
 
@@ -105,7 +112,6 @@ async function getAccessToken(code) {
 }
 
 async function getTransactionData(token, limit, starDate, endDate, categoryType) {
-    console.log("accessToken", token)
     const response = await fetch(base + "/search", {
         method: "POST",
         headers: {

@@ -4,7 +4,7 @@ import {getCurrency} from "../utils/getCurrency";
 import {formatNumber} from "../utils/Format";
 
 export const Transactions = ({data}) => {
-    const merchant = data.response;
+    const merchant = data;
 
     if (
         !data
@@ -24,7 +24,10 @@ export const Transactions = ({data}) => {
 
     return (
         <div className="results-page">
-            <img src={`http://logo.clearbit.com/spotify.se`} alt="test-img"/>
+            <h2>
+                Your Top Merchant This Year
+            </h2>
+            <img src={merchant.img} alt="test-img"/>
             <div style={{margin: "30px"}}>
                 <h2>
                     {merchant.name}
@@ -32,7 +35,8 @@ export const Transactions = ({data}) => {
             </div>
             <div style={{margin: "30px"}}>
                 <p>
-                    During 2020 you've spent{formatNumber(merchant.amount)} at {merchant.name}
+                    During 2020 you've
+                    spent {formatNumber(merchant.amount)} {getCurrency(merchant.currency)} at {merchant.name}
                 </p>
             </div>
         </div>
