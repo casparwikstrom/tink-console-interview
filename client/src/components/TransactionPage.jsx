@@ -5,12 +5,13 @@ import Spinner from "./Spinner";
 import Transactions from "./Transactions";
 
 export const TransactionPage = ({data, error, loading}) => {
+    console.log("loading", loading);
     if (error) {
         return <noscript/>;
     }
 
     if (loading) {
-        return <Spinner width="50px" image={"./spinner.png"}/>;
+        return <Spinner width="50px" image={"./spinner.svg"}/>;
     }
 
     if (!data) {

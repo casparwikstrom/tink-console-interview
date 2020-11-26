@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import {getCurrency} from "../utils/getCurrency";
+
 import {formatNumber} from "../utils/Format";
 
 export const Transactions = ({data}) => {
@@ -24,7 +24,7 @@ export const Transactions = ({data}) => {
 
     return (
         <div className="results-page">
-            <h2>
+            <h2 style={{padding: "10px"}}>
                 Your Top Merchant This Year
             </h2>
             <img src={merchant.img} alt="test-img"/>
@@ -36,7 +36,7 @@ export const Transactions = ({data}) => {
             <div style={{margin: "30px"}}>
                 <p>
                     During 2020 you've
-                    spent {formatNumber(merchant.amount)} {getCurrency(merchant.currency)} at {merchant.name}
+                    spent <strong>{formatNumber(merchant.amount)} {merchant.currency}</strong> at <strong>{merchant.name}</strong>
                 </p>
             </div>
         </div>

@@ -80,8 +80,8 @@ async function getTopMerchants(transactionData) {
             max = merchantMap[key][["amount"]]
             topMerchant = {
                 name: key,
-                amount: merchantMap[key]["currencyDenominatedAmount"]["currencyCode"],
-                currency: merchantMap[key]["amount"],
+                currency: merchantMap[key]["currencyDenominatedAmount"]["currencyCode"],
+                amount: merchantMap[key]["amount"],
                 img: "http://logo.clearbit.com/spotify.se",
 
             }

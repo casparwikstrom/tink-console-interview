@@ -9,9 +9,12 @@
 
 .wrapper {
     min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
-.tinkh2 {
+.tink-h2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -31,7 +34,7 @@
 }
 
 .results-page p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -91,7 +94,6 @@
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
-    box-shadow: rgba(29, 151, 108, 0.5) 0px 2px 10px;
     border-radius: 5px;
     border-color: #1d976c7d;
 }
@@ -104,16 +106,21 @@
 .btn.green {
     background-image: linear-gradient(to right, #1D976C 0%, #93F9B9 51%, #1D976C 100%);
     border-color: #93f9b970;
+    box-shadow: rgba(29, 151, 108, 0.5) 0px 2px 10px;
 }
 
 .btn.red {
-    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9 51%, #1D976C 100%);
-    border-color: #1D976C;
+    background-image: linear-gradient(to right, #ff4b1f 0%, #ff9068 51%, #ff4b1f 100%);
+    box-shadow: rgba(244, 82, 39, 0.5) 0px 2px 10px;
+    border-color: #ff4b1f;
+    position: absolute;
+    bottom: 7%;
 }
 
 .btn.blue {
     background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%);
     border-color: #1fa2ff78;
+    box-shadow: rgba(31, 126, 255, 0.5) 0px 2px 10px;
 }
 
 .btn.grad:hover {
@@ -133,7 +140,19 @@
     border-color: #1fa2ff78;
 }
 
+.spinner {
+    animation: Spin 2s infinite linear;
+    color: #00c6ff;
+}
 
+@keyframes Spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 
 
