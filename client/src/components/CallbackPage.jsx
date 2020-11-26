@@ -7,7 +7,6 @@ import TransactionPage from "./TransactionPage";
 export const CallbackPage = ({ location }) => {
     const { loading, error, data } = useCallbackData(location);
     const message = new URLSearchParams(location).get("message");
-    console.log("loadingloadingloadingloadingloading callback", loading)
 
     return (
         <div className="wrapper">
