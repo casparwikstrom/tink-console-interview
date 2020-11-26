@@ -82,13 +82,13 @@ async function getTopMerchants(transactionData) {
         }
     });
 
-    let max = Number.NEGATIVE_INFINITY;
+    let min = 0;
     let topMerchant = [];
 
     for (let merchantName in merchantMap) {
         let totalAmount = merchantMap[merchantName];
-        if (totalAmount > max) {
-            max = totalAmount
+        if (totalAmount < min) {
+            min = totalAmount
             topMerchant = {
                 name: merchantName,
                 currency: "SEK", //Hard-code SEK
