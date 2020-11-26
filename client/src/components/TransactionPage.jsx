@@ -5,12 +5,13 @@ import Spinner from "./Spinner";
 import Transactions from "./Transactions";
 
 export const TransactionPage = ({data, error, loading}) => {
+    console.log("loading", loading);
     if (error) {
         return <noscript/>;
     }
 
     if (loading) {
-        return <Spinner width="50px" image={"./spinner.png"}/>;
+        return <Spinner width="50px" image={"./spinner.svg"}/>;
     }
 
     if (!data) {
@@ -19,7 +20,7 @@ export const TransactionPage = ({data, error, loading}) => {
 
     return (
         <Row>
-            <Col lg={{size: 6, offset: 3}}>
+            <Col lg={{size: 12}}>
                 <Transactions data={data.response}/>
             </Col>
         </Row>

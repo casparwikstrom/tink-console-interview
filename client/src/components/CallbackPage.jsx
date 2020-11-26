@@ -4,20 +4,10 @@ import ReactRouterPropTypes from "react-router-prop-types";
 import {useCallbackData} from "../hooks/useCallbackData";
 import TransactionPage from "./TransactionPage";
 
-const getHeaderProps = error =>
-    error
-        ? {
-            text: "Something went wrong",
-            emoji: "sad"
-        }
-        : {
-            text: "Your bank was successfully connected!",
-            emoji: "tada"
-        };
-
 export const CallbackPage = ({ location }) => {
     const { loading, error, data } = useCallbackData(location);
     const message = new URLSearchParams(location).get("message");
+    console.log("loadingloadingloadingloadingloading callback", loading)
 
     return (
         <div className="wrapper">

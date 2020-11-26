@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import {BasicDropdown} from "./BasicDropdown";
 import AuthorizationLink from "./AuthorizationLink";
-import "./json.json"
 
 export const Main = () => {
     const [market, setMarket] = useState("SE");
@@ -12,7 +11,7 @@ export const Main = () => {
             <div className="logo-image">
                 <img src="//logo.clearbit.com/tink.com?size=80"/>
             </div>
-            <div className="tinkh2">
+            <div className="tink-h2">
                 <h2 style={{margin: 0}}>Tink Console</h2>
             </div>
             <div>
