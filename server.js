@@ -7,7 +7,7 @@ const fs = require('fs')
 
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 const CLIENT_SECRET = process.env.TINK_CLIENT_SECRET;
-const AUTH_TOKEN = process.env.TINK_CLIENT_SECRET;
+const AUTH_TOKEN = process.env.AUTH_TOKEN;
 
 app.use(express.static(path.join(__dirname, "client/build")));
 app.use(bodyParser.json());
