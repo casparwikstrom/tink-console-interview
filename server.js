@@ -7,8 +7,7 @@ const fs = require('fs')
 
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 const CLIENT_SECRET = process.env.TINK_CLIENT_SECRET;
-//Testing the api
-/*const AUTH_TOKEN = "";*/
+const AUTH_TOKEN = process.env.AUTH_TOKEN;
 
 app.use(express.static(path.join(__dirname, "client/build")));
 app.use(bodyParser.json());
@@ -34,20 +33,18 @@ app.post("/callback", function (req, res) {
 
 //Testing the api
 app.post("/test_api_local", function (req, res) {
-    return readTestData("json.json").then(data => getTopMerchants(data));
+    return readTestData("transactions.json").then(data => getTopMerchants(data));
 });
 
 app.post("/test_api_real_data", function (req, res) {
-    return getTransactionData(AUTH_TOKEN, 1000, '2020-01-01', '2020-12-31', 'EXPENSES').then(data => getTopMerchants(data));
+    return getTransactionData(AUTH_TOKEN, 1000, '2020-01-01', '2020-12-31', 'EXPENSES')
+        .then(data => getTopMerchants(data));
 });
 
 async function handleResponse(response) {
     const json = await response.json();
     if (response.status !== 200) {
-        /*throw new Error(json.errorMessage);*/
-        await response().catch(e => {
-            throw e
-        })
+        throw new Error(json.errorMessage);
     }
     return json;
 }
@@ -63,31 +60,38 @@ async function getTopMerchants(transactionData) {
     const transactions = await transactionData.results;
     let merchantMap = {};
 
+    //create a map with Merchant -> Total Amount
+    //it assumes all transactions are in SEK
     transactions.forEach(function (transaction) {
         if (merchantMap[transaction.transaction.formattedDescription]) {
-
-            merchantMap[transaction.transaction.formattedDescription] = merchantMap[transaction.transaction.formattedDescription] + transaction.transaction
+            merchantMap[transaction.transaction.formattedDescription] =
+                merchantMap[transaction.transaction.formattedDescription] + transaction.transaction.amount;
         } else {
-            merchantMap[transaction.transaction.formattedDescription] = transaction.transaction
+            merchantMap[transaction.transaction.formattedDescription] = transaction.transaction.amount;
         }
     });
 
-    var max = Number.NEGATIVE_INFINITY
-    var topMerchant = []
+    let max = Number.NEGATIVE_INFINITY;
+    let topMerchant = [];
 
-    for (let key in merchantMap) {
-        if (merchantMap[key]["amount"] > max) {
-            max = merchantMap[key][["amount"]]
+    for (let merchantName in merchantMap) {
+        let totalAmount = merchantMap[merchantName];
+        if (totalAmount > max) {
+            max = totalAmount
             topMerchant = {
-                name: key,
-                currency: merchantMap[key]["currencyDenominatedAmount"]["currencyCode"],
-                amount: merchantMap[key]["amount"],
-                img: "http://logo.clearbit.com/spotify.se",
-
+                name: merchantName,
+                currency: "SEK", //Hard-code SEK
+                amount: totalAmount,
+                img: getImage(merchantName),
             }
         }
     }
     return topMerchant;
+}
+
+//hardcode one image
+function getImage(merchantName) {
+    return "http://logo.clearbit.com/spotify.se"
 }
 
 async function getAccessToken(code) {
