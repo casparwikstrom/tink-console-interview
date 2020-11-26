@@ -27,8 +27,8 @@ export const Transactions = ({data}) => {
             <h2 style={{padding: "10px"}}>
                 Your Top Merchant This Year
             </h2>
-            <img src={merchant.img} alt="test-img"/>
-            <div style={{margin: "30px"}}>
+            <img data-testid="img" src={merchant.img} alt="test-img"/>
+            <div data-testid="name" style={{margin: "30px"}}>
                 <h2>
                     {merchant.name}
                 </h2>

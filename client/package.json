@@ -7,6 +7,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
     "@material-ui/core": "^4.11.0",
+    "@testing-library/dom": "^7.28.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -18,6 +19,7 @@
     "react-router-dom": "^5.1.2",
     "react-router-prop-types": "^1.0.5",
     "react-scripts": "4.0.0",
+    "react-test-renderer": "^17.0.1",
     "react-transition-group": "4.3.0",
     "reactstrap": "^8.4.1",
     "web-vitals": "^0.2.4"

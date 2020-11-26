@@ -20,7 +20,7 @@ export const TransactionPage = ({data, error, loading}) => {
 
     return (
         <Row>
-            <Col lg={{size: 6, offset: 3}}>
+            <Col lg={{size: 12}}>
                 <Transactions data={data.response}/>
             </Col>
         </Row>
