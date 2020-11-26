@@ -33,12 +33,23 @@ app.post("/callback", function (req, res) {
 
 //Testing the api
 app.post("/test_api_local", function (req, res) {
-    return readTestData("transactions.json").then(data => getTopMerchants(data));
+    return readTestData("transactions.json")
+        .then(data => getTopMerchants(data))
+        .then(response => {
+            res.json({
+                response
+            });
+        })
 });
 
 app.post("/test_api_real_data", function (req, res) {
     return getTransactionData(AUTH_TOKEN, 1000, '2020-01-01', '2020-12-31', 'EXPENSES')
-        .then(data => getTopMerchants(data));
+        .then(data => getTopMerchants(data))
+        .then(response => {
+            res.json({
+                response
+            });
+        });
 });
 
 async function handleResponse(response) {
